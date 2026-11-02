@@ -1,0 +1,9 @@
+{
+  "selected_model": "Random Forest",
+  "selection_seed": 11,
+  "horizon_steps": 2,
+  "train_rows": 400000,
+  "training_pool_rows": 1943700,
+  "feature_count": 24,
+  "safety_margin_p95": 0.14305422512166244
+}

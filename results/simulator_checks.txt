@@ -1,0 +1,13 @@
+steady load: VMs in use                                    expected      2.000  measured      2.000  PASS
+steady load: response = 60 s x 0.8                         expected     48.000  measured     48.000  PASS
+steady load: SLA violations (percent)                      expected      0.000  measured      0.000  PASS
+steady load: all submitted work completes                  expected 8640000.000  measured 8640000.000  PASS
+step: reactive VMs before the step (interval 5)            expected      1.000  measured      1.000  PASS
+step: reactive sees it at tick 6, VMs ready at 7           expected      4.000  measured      4.000  PASS
+step: oracle has VMs ready when it starts                  expected      4.000  measured      4.000  PASS
+step: oracle meets the SLA throughout (percent)            expected      0.000  measured      0.000  PASS
+step: reactive late slices 46.67%, max response 2644.6 s (must be above the SLA)
+static: VM count from the peak                             expected      3.000  measured      3.000  PASS
+static: billed VM hours for 3 VMs over 8 intervals         expected      2.000  measured      1.991  PASS
+static: utilization equals the target                      expected     80.000  measured     80.372  PASS
+ALL CHECKS PASSED
